@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Grupo CAST | Sobre nós</title>
+  <title>Grupo CAST | Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -30,7 +30,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 
 <body>
@@ -42,16 +42,16 @@
       <a href="home.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <img src="assets/img/logo2.png" alt="">
-        <h1>Grupo CAST<span>.</span></h1>
+        <h1>Grupo Cast<span>.</span></h1>
       </a>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="home.html">home</a></li>
-          <li><a href="sobre-nos.html" class="active">sobre nós</a></li>
-          <li><a href="home.html#services">serviços</a></li>
+          <li><a href="home.html" class="active">Home</a></li>
+          <li><a href="sobre-nos.html">Sobre nós</a></li>
+          <li><a href="#services">Serviços</a></li>
           <li><a href="assets/img/portfolio.pdf">Portfolio</a></li>
           <li><a href="contato.html">Contato</a></li>
         </ul>
@@ -60,103 +60,366 @@
     </div>
   </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+
+    <div class="info d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Bem vindo ao </br><span>Grupo CAST!</span></h2>
+            <p data-aos="fade-up">Desde 2007 oferecendo soluções de engenharia que atendem às necessidades únicas de cada cliente!</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="#services" class="btn-get-started">Conheça</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/1.jpg)"></div>
+
+    </div>
+
+  </section><!-- End Hero Section -->
+
   <main id="main">
 
-    <!-- ======= Breadcrumbs ======= -->
-    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
-      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+            <!-- ======= Services Section ======= -->
+            <section id="services" class="services">
+              <div class="container" data-aos="fade-up">
+        
+                <div class="section-header">
+                  <h2>Serviços</h2>
+                  <p>Oferecemos soluções em fachadas e pinturas, projetados para atender às diversas necessidades dos nossos clientes. Serviço personalizado para cada etapa do projeto!</p>
+                </div>
+        
+                <div class="row gy-4">
+        
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-item  position-relative">
+                      <div class="icon">
+                        <i class="fa-solid bi bi-building-fill-check"></i>
+                      </div>
+                      <h3>Pintura de fachada</h3>
+                      <p>Combinando expertise técnica e materiais de qualidade, nossa equipe transforma fachadas de edifícios em verdadeiras obras de arte. Garantimos resultados duradouros e esteticamente impressionantes.</p>
+                    </div>
+                  </div><!-- End Service Item -->
+        
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-item position-relative">
+                      <div class="icon">
+                        <i class="fa-solid bi bi-building-fill-up"></i>
+                      </div>
+                      <h3> Retrofit de fachada</h3>
+                      <p>Modernize e fortaleça suas estruturas com nosso serviço de retrofit de fachadas, combinando inovação técnica e estética refinada para um visual renovado e uma proteção duradoura.</p>
+                    </div>
+                  </div><!-- End Service Item -->
+        
+                  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-item position-relative">
+                      <div class="icon">
+                        <i class="fa-solid bi bi-building-fill-gear"></i>
+                      </div>
+                      <h3>Tratamento de fachada</h3>
+                      <p>O tratamento de fachada é essencial para a preservação e valorização de edificações. Consiste em técnicas de limpeza, reparo e proteção que garantem não apenas a estética, mas também a durabilidade e segurança das estruturas.</p>
+                    </div>
+                  </div><!-- End Service Item -->
+        
+                </div>
+        
+              </div>
+            </section><!-- End Services Section -->
 
-        <h2>Sobre nós</h2>
-        <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Sobre nós</li>
-        </ol>
+    <!-- ======= Constructions Section ======= -->
 
-      </div>
-    </div><!-- End Breadcrumbs -->
+        <section id="alt-services" class="alt-services section-bg">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="row justify-content-around gy-4">    
+              <div class="col-lg-5 d-flex flex-column justify-content-center">
+                <h3>Nosso Portfolio</h3>
+                <p>Explore nossa coleção de projetos inspiradores e mergulhe no mundo da excelência em engenharia, onde cada imagem reflete nossa paixão por inovação e qualidade.</p>
+    
+                <section id="portfolio" class="portfolio-btn">
+                  <a href="assets/img/portfolio.pdf" data-aos="fade-up"><button>Ver portfolio <span>completo </span>↗</button></a>
+                </section>
+    
+              </div>
+              <div class="col-lg-6 img-bg" style="background-image: url(assets/img/portfolio-img.jpeg);" data-aos="zoom-in" data-aos-delay="100"></div>
+            </div>
+    
+          </div>
+        </section><!-- End Alt Services Section -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+            <!-- ======= Alt Services Section ======= -->
+    <section id="alt-services" class="alt-services">
       <div class="container" data-aos="fade-up">
 
-        <div class="row position-relative">
+        <div class="row justify-content-around gy-4">
+          <div class="col-lg-6 img-bg" style="background-image: url(assets/img/alt-services.jpg);" data-aos="zoom-in" data-aos-delay="100"></div>
 
-          <div class="col-lg-7 about-img" style="background-image: url(assets/img/about.jpg);"></div>
+          <div class="col-lg-5 d-flex flex-column justify-content-center">
+            <h3>Proporcianamos uma experiência única aos nossos clientes.</h3>
+            <p>Nosso compromisso é oferecer uma experiência verdadeiramente diferenciada aos nossos clientes, onde cada projeto é cuidadosamente executado por nossa equipe dedicada, garantindo resultados excepcionais.</p>
 
-          <div class="col-lg-7">
-            <h2>Aqui os seus projetos acontecem!</h2>
-            <div class="our-story">
-              <h4>est. 2007</h4>
-              <h3>Nossa história</h3>
-              <p>Desde a nossa fundação em 2009, no coração da inovação e excelência em engenharia, o Grupo CAST tem se dedicado a superar expectativas e deixar uma marca duradoura no campo da construção e infraestrutura. Ao longo dos anos, nossa equipe comprometida tem trabalhado incansavelmente para oferecer soluções personalizadas e de alta qualidade que impulsionam o sucesso de nossos clientes. Nossa jornada é marcada por conquistas, parcerias sólidas e um compromisso inabalável com a satisfação do cliente.</p>
-              <ul>
-                <li><i class="bi bi-check-circle"></i> <span>Transparência e integridade em todas as interações</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Expertise técnica de alto nível</span></li>
-                <li><i class="bi bi-check-circle"></i> <span>Satisfação do cliente</span></li>
-              </ul>
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+              <i class="bi bi-lightning-charge flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Agilidade</a></h4>
+                <p>Nossa equipe é ágil e eficiente, respondendo rapidamente às demandas dos clientes e entregando resultados dentro dos prazos estabelecidos.</p>
+              </div>
+            </div><!-- End Icon Box -->
 
-            </div>
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-star flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Qualidade</a></h4>
+                <p>Comprometidos com a excelência, nossos profissionais garantem qualidade em cada etapa do processo, desde o planejamento até a execução dos projetos.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-bullseye flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Expertise Técnica</a></h4>
+                <p>Contamos com uma equipe altamente qualificada e experiente, pronta para lidar com os desafios mais complexos e oferecer soluções técnicas inovadoras.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-patch-check flex-shrink-0"></i>
+              <div>
+                <h4><a href="" class="stretched-link">Compromisso com o Cliente</a></h4>
+                <p>Nosso time tem um compromisso inabalável com a satisfação do cliente, buscando entender suas necessidades e superar suas expectativas em cada projeto.</p>
+              </div>
+            </div><!-- End Icon Box -->
+
           </div>
-
         </div>
 
       </div>
-    </section>
-    <!-- End About Section -->
+    </section><!-- End Alt Services Section -->
 
-    <!-- ======= Stats Counter Section ======= -->
-    <section id="stats-counter" class="stats-counter section-bg">
-      <div class="container">
 
-        <div class="row gy-4">
+    <div class="section-header" style="margin-top: 50px;">
+      <h2>Parceiros</h2>
+      <p></p>
+    </div>
+    <div class="carousel"
+    data-flickity='{ "lazyLoad": 2, "initialIndex": 1, "autoPlay": true,"wrapAround": true, "autoPlay": 3000 }'>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/1.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/2.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/3.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/4.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/5.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/6.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/7.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/8.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/9.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/10.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/11.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/12.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/13.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/14.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/15.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/16.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/17.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/18.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/19.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/20.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/21.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/22.jpg" alt="" />
+   </div>
+   <div class="carousel-cell">
+     <img class="carousel-cell-image"
+       data-flickity-lazyload="/assets/img/parceiros/23.jpg" alt="" />
+   </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i>
-              <div>
-                <p>Mais de</p>
-                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Clientes satisfeitos</p>
-              </div>
+ </div>
+ 
+ 
+ 
+
+
+
+
+
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials section-bg" style="margin-top: 75px;">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="section-header">
+              <h2>Depoimentos</h2>
+              <p>O que nossos clientes dizem sobre a CAST!</p>
             </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i>
-              <div>
-                <p>Mais de</p>
-                <span data-purecounter-start="0" data-purecounter-end="80" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Projetos concluídos</p>
+    
+            <div class="slides-2 swiper">
+              <div class="swiper-wrapper">
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                      <h3>Eduardo Martins</h3>
+                      <h4>Empresário</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        A equipe do Grupo CAST superou todas as minhas expectativas! Profissionais dedicados e comprometidos em entregar um trabalho de qualidade. Recomendo a todos!
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                      <h3>Júlia Fernandes</h3>
+                      <h4>Arquiteto</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Excelente serviço prestado pelo Grupo CAST! Desde o primeiro contato até a conclusão do projeto, fiquei impressionado com o profissionalismo e a atenção aos detalhes. Definitivamente, uma empresa de confiança!
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                      <h3>Carlos Pereira</h3>
+                      <h4>Engenheiro civil</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Estou extremamente satisfeito com o trabalho realizado pelo Grupo CAST. Eles foram ágeis, eficientes e entregaram resultados além do esperado. Com certeza, irei contratá-los novamente para futuros projetos.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                      <h3>Hélio Dalla Corte</h3>
+                      <h4>Gerente de projetos</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Contratar o Grupo CAST foi a melhor decisão que tomei para minha obra. Eles não apenas cumpriram todos os prazos, mas também foram flexíveis e adaptáveis às minhas necessidades. Recomendo sem hesitação!
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
+                <div class="swiper-slide">
+                  <div class="testimonial-wrap">
+                    <div class="testimonial-item">
+                      <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                      <h3>Rafael Santos</h3>
+                      <h4>Designer de interiores</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        <i class="bi bi-quote quote-icon-left"></i>
+                        Simplesmente fantástico! A equipe do Grupo CAST transformou completamente o meu espaço com seu trabalho impecável. Profissionais experientes e comprometidos em proporcionar a melhor experiência para o cliente.
+                        <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                    </div>
+                  </div>
+                </div><!-- End testimonial item -->
+    
               </div>
+              <div class="swiper-pagination"></div>
             </div>
-          </div><!-- End Stats Item -->
+    
+          </div>
+        </section><!-- End Testimonials Section -->
 
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-people color-pink flex-shrink-0"></i>
-              <div>
-                <p>Mais de</p>
-                <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Colaboradores</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
 
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <i class="bi bi-calendar2-heart flex-shrink-0"></i>
-              <div>
-                <span data-purecounter-start="0" data-purecounter-end="17" data-purecounter-duration="1" class="purecounter"></span>
-                <p>Anos de experiência</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Stats Counter Section -->
 
   </main><!-- End #main -->
 
@@ -231,7 +494,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
