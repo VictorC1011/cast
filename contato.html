@@ -15,7 +15,7 @@
 
   <!-- Google Fonts -->
   <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
-  
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
@@ -80,66 +80,52 @@
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-4">
-          <div class="col-lg-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-map"></i>
-              <h3>Onde estamos</h3>
-              <p>São Carlos - SP, Brasil</p>
+        <section id="alt-services" class="alt-services">
+          <div class="container" data-aos="fade-up">
+    
+            <div class="row justify-content-around gy-4">
+
+              <div class="col-lg-6 img-bg" style="background-image: url(assets/img/contato.png);" data-aos="zoom-in" data-aos-delay="100"></div>
+    
+              <div class="col-lg-5 d-flex flex-column justify-content-center">
+
+                <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bi bi-whatsapp flex-shrink-0"></i>
+                  <div>
+                    <h4><a href="https://wa.me/551621210961/" class="stretched-link">WhatsApp</a></h4>
+                    <p>(16) 2121-0961</p>
+                  </div>
+                </div><!-- End Icon Box -->
+    
+                <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h4><a href="tel://5511914038476" class="stretched-link">Telefone</a></h4>
+                    <p>(11) 91403-8476</p>
+                  </div>
+                </div><!-- End Icon Box -->
+    
+                <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bi bi-instagram flex-shrink-0"></i>
+                  <div>
+                    <h4><a href="https://www.instagram.com/grupo.cast/" class="stretched-link">Instagram</a></h4>
+                    <p>@grupo.cast</p>
+                  </div>
+                </div><!-- End Icon Box -->
+    
+                <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bi bi-linkedin flex-shrink-0"></i>
+                  <div>
+                    <h4><a href="https://www.linkedin.com/company/grupo-cast/about/" class="stretched-link">LinkedIn</a></h4>
+                    <p>grupo cast</p>
+                  </div>
+                </div><!-- End Icon Box -->
+    
+              </div>
             </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-envelope"></i>
-              <h3>Email</h3>
-              <p>comercial@grupocast.com</p>
-            </div>
-          </div><!-- End Info Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-item  d-flex flex-column justify-content-center align-items-center">
-              <i class="bi bi-telephone"></i>
-              <h3>Telefones</h3>
-              <p>(16) 2121-0961</p>
-              <p>(11) 91403-8476</p>
-            </div>
-          </div><!-- End Info Item -->
-
-        </div>
-
-        <div class="row gy-4 mt-1">
-
-          <div class="col-lg-6 ">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d645.1486219720546!2d-47.89080560524941!3d-22.020364751711227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b87726bb9dd181%3A0xd9d7d71505999bc!2zU8OjbyBDYXJsb3MsIFNQ!5e1!3m2!1spt-BR!2sbr!4v1711653263645!5m2!1spt-BR!2sbr" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>></iframe>
-          </div><!-- End Google Maps -->
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row gy-4">
-                <div class="col-lg-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" required>
-                </div>
-                <div class="col-lg-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Seu Email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Mensagem" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar mensagem</button></div>
-            </form>
-          </div><!-- End Contact Form -->
-
-        </div>
+    
+          </div>
+        </section><!-- End Alt Services Section -->
 
       </div>
     </section><!-- End Contact Section -->
@@ -172,11 +158,13 @@
           </div><!-- End footer info column-->
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Links úteis</h4>
+            <h4>Acesso rápido</h4>
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="about.html">Sobre nós</a></li>
-              <li><a href="#services">Serviços</a></li>
+              <li><a href="home.html#services">Serviços</a></li>
+              <li><a href="assets/img/portfolio.pdf">Portfolio</a></li>
+              <li><a href="contato.html">Contato</a></li>
             </ul>
           </div><!-- End footer links column-->
 
@@ -202,7 +190,7 @@
     <div class="footer-legal text-center position-relative">
       <div class="container">
         <div class="copyright">
-          &copy; Copyright <strong><span>Grupo CAST</span></strong>. Todos os direitos reservados.
+          &copy; <strong><span>Grupo CAST</span></strong>. Todos os direitos reservados.
         </div>
       </div>
     </div>
